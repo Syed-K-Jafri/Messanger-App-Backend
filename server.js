@@ -26,7 +26,7 @@ app.use(cors());
 
 // DB config - this connects to database
 
-const connection_url = `mongodb+srv://admin:tBFSYjwwGkw8uHH@cluster0.hmc1p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const connection_url = `mongodb+srv://admin:856fs6526sddew88@cluster0.hmc1p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
 mongoose.connect(connection_url, {
   useCreateIndex: true,
